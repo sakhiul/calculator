@@ -1,84 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-h1{
-    text-align: center;
-    color: blue;
+h1 {
+  text-align: center;
+  color: blue;
 }
-.bodyColor{
-    background-color: black;
-}
-
-.card{
-    margin: 0 auto;
-    text-align: center;
-    max-width: 350px;
-    margin-top: 10px;
-    box-shadow: 0 4px 8px 0 rgba(254, 250, 250, 0.5);
-    transition: 0.3s;
-    font-size:0;
-    border-radius: 20px;
-    background-color: aqua;
-    height: 490px;
-   
-
-}
-.card:hover{
-    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.6);
+.bodyColor {
+  background-color: black;
 }
 
-.calc-head #result{
-    width: 334px;
-    height: 80px;
-    font-size: 40px;
-    font-weight: bold;
-    text-align: right;
-    padding: 3px;
-    letter-spacing: 2px;
-    border-color: brown;
-    border-width: 05px;
-    border-radius: 15px;
-
-    
-
-
-
+.card {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 350px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px 0 rgba(254, 250, 250, 0.5);
+  transition: 0.3s;
+  font-size: 0;
+  border-radius: 20px;
+  background-color: rgb(62, 62, 64);
+  height: 490px;
 }
-.btn{
-    width: 87px;
-    height: 70px;
-    font-weight: bold;
-    color: white;
-    background-color: black;
-    border-radius: 100px;
-    margin-top: 7px;
-    border-color: aliceblue;
-    
+.card:hover {
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.6);
 }
 
-.btn:hover{
-    background-color: magenta;
+.calc-head #result {
+  width: 334px;
+  height: 80px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: right;
+  padding: 3px;
+  letter-spacing: 2px;
+  border-color: brown;
+  border-width: 05px;
+  border-radius: 15px;
+  margin-bottom: 2px;
+}
+.btn {
+  width: 80px;
+  height: 70px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border-radius: 100px;
+  margin-top: 7px;
+  border: 0cap;
+  outline: 0px;
+  margin: 4px 3px;
+}
+.btnC {
+  width: 80px;
+  height: 70px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border-radius: 100px;
+  outline: 0px;
+  border: 0cap;
 }
 
-.site{
-    background-color: tomato;
+.btn:hover {
+  background-color: rgb(33, 227, 78);
 }
 
-.equal{
-    background-color: yellowgreen;
+.site {
+  background-color: tomato;
+
+
+.equal {
+  background-color: yellowgreen;
 }
 
-.btnC{
-    width: 87px;
-    height: 70px;
-    font-weight: bold;
-    color: white;
-    background-color:black;
-    border-radius: 100px;
-    border-color: aliceblue;
-}
-
-.btnC:hover{
-    background-color: red;
+.btnC:hover {
+  background-color: red;
 }
